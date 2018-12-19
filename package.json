@@ -1,0 +1,25 @@
+{
+  "name": "connecting-from-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add_person.js",
+  "dependencies": {
+    "knex": "^0.16.2",
+    "pg": "^7.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratofkryll/connecting-from-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratofkryll/connecting-from-javascript/issues"
+  },
+  "homepage": "https://github.com/ratofkryll/connecting-from-javascript#readme"
+}
