@@ -15,6 +15,8 @@ const knex = require('knex')({
 
 const search = process.argv[2];
 
+console.log('Searching...');
+
 knex.count().from('famous_people').where('first_name', search).orWhere('last_name', search).asCallback((err, res) => {
   if (err) {
     console.log('Count Err: ', err);
