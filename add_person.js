@@ -21,7 +21,7 @@ knex.insert([{first_name: addFirstName, last_name: addLastName, birthdate: addBi
   if (err) {
     console.log('Insert Err: ', err);
   } else {
-    console.log('Inserting');
+    console.log(`Inserting ${addFirstName} ${addLastName}.`);
   }
   knex.destroy((err, res) => {
     if (err) {
